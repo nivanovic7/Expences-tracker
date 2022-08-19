@@ -40,3 +40,34 @@
   font-size: 1.5rem;
   margin-top: 0.5rem;
 }
+
+.main {
+  width: 400px;
+  padding: 1.5rem;
+  background-color: white;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+
+  &__graph {
+    display: flex;
+    justify-content: space-between;
+
+    &__column {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+    }
+  }
+}
+
+.bar {
+  width: 30px;
+  height: 100px;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.bar:hover {
+  background-color: blue;
+}
