@@ -3,33 +3,40 @@
 ::before {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 .container {
   background-color: wheat;
   display: flex;
+
   justify-content: center;
   align-items: center;
   flex-direction: column;
   min-width: 100vw;
-  min-height: 100vh; }
+  min-height: 100vh;
+}
 
 .heading {
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: white;
-  background-color: #b69558;
+  background-color: rgb(182, 149, 88);
   padding: 1.5rem;
   border-radius: 10px;
   width: 400px;
-  font-family: monospace; }
-  .heading__logo {
-    height: 40px; }
+  font-family: monospace;
+  &__logo {
+    height: 40px;
+  }
+}
 
 .balance__text {
-  font-weight: 200; }
+  font-weight: 200;
+}
 
 .balance__num {
   font-size: 1.5rem;
-  margin-top: 0.5rem; }
+  margin-top: 0.5rem;
+}
