@@ -65,7 +65,7 @@
 .price {
   background-color: #252525;
   color: white;
-  border-radius: 2px;
+  border-radius: 3px;
   visibility: hidden;
   width: 100%;
   padding: 5px;
@@ -73,3 +73,24 @@
 
 .bar:hover + .price {
   visibility: visible; }
+
+hr {
+  opacity: 0.4; }
+
+.graph__footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0 1rem; }
+  .graph__footer-text {
+    opacity: 0.5; }
+
+.this__month-num {
+  font-size: 2.5rem;
+  line-height: 2rem;
+  margin-top: 10px; }
+
+.last__month {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column; }
