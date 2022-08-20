@@ -27,8 +27,13 @@ fetch("./data.json")
       day.classList.add("day");
       day.textContent = item.day;
 
-      col.insertAdjacentElement("beforeend", bar);
+      const price = document.createElement("p");
+      price.classList.add("price");
+      price.textContent = `$${item.amount}`;
+
       col.insertAdjacentElement("beforeend", day);
+      col.insertAdjacentElement("beforeend", bar);
+      col.insertAdjacentElement("beforeend", price);
 
       document
         .querySelector(".main__graph")
